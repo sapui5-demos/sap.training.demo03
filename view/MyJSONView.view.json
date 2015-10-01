@@ -1,0 +1,12 @@
+{
+	"Type": "sap.ui.core.mvc.JSONView",
+	"controllerName": "sap.training.demo03.view.MyJSONView",
+	"content": [{
+		"Type": "sap.m.Button",
+		"text": "Button auf JSON View",
+		"press": "onButtonPress"
+	}, {
+		"Type": "sap.m.Input",
+		"id": "idInput"
+	}]
+}
